@@ -12,3 +12,5 @@ exports.seed = function (knex) {
       return knex('pokemon').insert(pokemon);
     });
 };
+
+exports.pokemon = pokemon
